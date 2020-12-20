@@ -1,0 +1,888 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Quicksand:400,700');
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.6.0/css/font-awesome.min.css');
+@import url('assets/css/bootstrap.min.css');
+@import url('assets/css/mdb.min.css');
+@import url('assets/css/style.css');
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  overflow-x: hidden;
+}
+
+.carousel-item {
+  height: 100vh;
+  min-height: 350px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.navbar-collapse {
+  justify-content: center;
+  align-items: center;
+}
+.navbar.navbar-2 .navbar-toggler-icon {
+  height: 50px;
+  width: 50px;
+  background-image: url('https://mdbootstrap.com/img/svg/hamburger2.svg?color=black');
+}
+
+.navbar.navbar-21 .navbar-toggler-icon {
+  height: 50px;
+  width: 50px;
+
+  background-image: url('https://mdbootstrap.com/img/svg/hamburger2.svg?color=fff');
+}
+
+.carousel-indicators {
+  padding-bottom: 12% !important;
+}
+.carousel .carousel-indicators li {
+  width: 20px !important;
+  height: 20px !important;
+}
+.borderText {
+  position: relative;
+  left: 0;
+  right: 0;
+}
+.borderText1 {
+  position: relative;
+  left: 0;
+  right: 0;
+}
+.borderText1 p {
+  font-size: 40px !important;
+  font-family: 'Indie Flower', cursive;
+  color: white !important;
+}
+
+.borderText p {
+  font-size: 40px !important;
+  font-family: 'Indie Flower', cursive;
+}
+
+.h1-responsive1 {
+  font-size: 60px !important;
+  font-family: 'Indie Flower', cursive;
+  color: white;
+}
+.h1-responsive12 {
+  font-size: 50px !important;
+  font-family: 'Indie Flower', cursive;
+  color: white;
+  text-align: center;
+}
+
+.flag {
+  font-size: 20px !important;
+  font-family: 'Indie Flower', cursive;
+}
+.activated1 {
+  text-decoration: underline !important;
+}
+.activated2 {
+  text-decoration: underline !important;
+}
+.flag a {
+  color: white !important;
+}
+.flag1 {
+  font-size: 20px !important;
+  font-family: 'Indie Flower', cursive;
+}
+.flag1 a {
+  color: black !important;
+}
+
+.h1-responsive {
+  font-size: 60px !important;
+  font-family: 'Indie Flower', cursive;
+  color: white;
+  background: url(ImageBGtext.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: center;
+}
+.footer {
+  position: fixed;
+  height: 250px;
+  bottom: 0;
+  width: 100%;
+  z-index: 9999;
+  background-image: url(footerSomo.png);
+}
+@media (max-width: 992px) {
+  .footer {
+    height: 150px;
+  }
+
+  .carousel-indicators {
+    padding-bottom: 30% !important;
+  }
+
+  .borderText p {
+    font-size: 20px !important;
+    font-family: 'Indie Flower', cursive;
+  }
+
+  .h1-responsive {
+    font-size: 40px !important;
+    font-family: 'Indie Flower', cursive;
+  }
+}
+
+.carousel-item {
+  display: flex !important;
+  align-items: center !important;
+}
+
+.carousel-caption {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  top: 0px;
+  left: 0px;
+  padding: 0px !important;
+  bottom: 0px !important;
+}
+
+.carousel-caption1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  top: 50%;
+  left: 0px;
+  padding: 0px !important;
+  bottom: 0px !important;
+}
+
+.navbar {
+  box-shadow: none !important;
+  z-index: 100;
+}
+
+.navbar-nav1 {
+  margin-left: 14% !important ;
+  position: absolute;
+  top: -9px;
+}
+.footerSvD {
+  width: 100% !important;
+  position: absolute;
+  bottom: 0px;
+}
+.btn-info1 {
+  margin: 0 !important;
+  height: 60px;
+  font-size: 20px !important;
+  background-color: rgba(61, 61, 55, 0.829) !important;
+  color: white !important;
+}
+
+.footerImage {
+  color: rgba(29, 27, 27, 0.966);
+  font-size: 40px;
+}
+
+.footerBtn1 {
+  position: absolute;
+  justify-content: center;
+  text-align: center;
+  z-index: 99999;
+}
+
+.footerBtn21 {
+  text-align: center;
+}
+.footerBtn13 {
+  text-align: center;
+}
+
+.footerBtn12 {
+  position: absolute;
+  text-align: center;
+  z-index: 99999;
+}
+.text-End {
+  text-align: end;
+}
+
+.footerContactBtn {
+  display: flex;
+  font-size: 20px !important;
+  position: absolute;
+  background-color: white !important;
+}
+.footerContactBtn1 {
+  display: flex;
+  font-size: 20px !important;
+  position: absolute;
+  background-color: white !important;
+}
+
+.footerContactBtn a {
+  color: black !important;
+}
+.footerContactBtn1 a {
+  color: black !important;
+}
+.img-responsive {
+  height: auto;
+  width: auto;
+  max-height: 72px;
+  max-width: 350px;
+  position: absolute;
+  top: 2%;
+  left: 2%;
+  z-index: 9999;
+}
+
+.container {
+  width: 95%;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+header::after {
+  content: '';
+  clear: both;
+  display: block;
+}
+
+.logo {
+  float: left;
+  text-transform: none !important;
+  font-size: 25px !important;
+  margin: 0;
+  font-family: 'Indie Flower', cursive;
+  font-weight: 700;
+  padding: 8px;
+}
+
+.site-nav {
+  position: fixed;
+  top: 0;
+  right: 0%;
+  bottom: 0;
+  width: 100%;
+  background: #c6c6cada;
+  transform: translateX(100%);
+  transition: transform ease-in-out 750ms;
+}
+.site-nav--open {
+  transform: translateX(0);
+}
+
+@supports (clip-path: circle(0px)) {
+  .site-nav {
+    transform: none;
+    clip-path: circle(0px at top right);
+    transition: clip-path ease-in-out 700ms;
+  }
+
+  .site-nav.site-nav--closed {
+    transition-delay: 200ms;
+  }
+
+  .site-nav--open {
+    clip-path: circle(250% at top right);
+  }
+}
+.nameAccommodation {
+  background-image: url(Image3.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: center;
+}
+.nameAccommodation1 {
+  background-image: url(ImageForum2.jpg);
+  background-repeat: no-repeat;
+  background-size: 115%;
+  background-position: center;
+}
+
+.nameAccommodationSvD {
+  font-size: 60px;
+  font-family: 'Indie Flower', cursive;
+  border: 3px solid white;
+  color: white;
+  background-color: rgba(88, 88, 88, 0.842);
+  padding: 5px;
+}
+.nameAccommodationSvD1 {
+  font-size: 50px;
+
+  border: 3px solid white;
+  color: white;
+  background-color: rgba(88, 88, 88, 0.842);
+  padding: 5px;
+  text-align: center;
+}
+
+.site-nav ul {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.site-nav li {
+  height: 100%;
+  width: 100%;
+}
+
+.site-nav li:not(:last-child) {
+  border-bottom: 1px solid #575766;
+}
+
+.site-nav a {
+  color: #ebebd3;
+  display: block;
+  text-transform: uppercase;
+  text-decoration: none;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.site-nav a:hover,
+.site-nav a:focus {
+  background: #88847dc0;
+  color: #464655;
+}
+
+.site-nav--icon {
+  display: inline-block;
+  font-size: 1.5em;
+  margin-right: 1em;
+  width: 1.1em;
+  text-align: right;
+  color: rgba(255, 255, 255, 0.4);
+}
+
+.menu-toggle {
+  display: block;
+  font-size: 1rem;
+  border: 0;
+  background: 0;
+  padding: 1em;
+  position: absolute;
+  top: 0.5em;
+  right: 0.5em;
+  cursor: pointer;
+  z-index: 1;
+}
+
+.menu-toggle:focus {
+  outline: 4px solid #ebebd3;
+}
+
+.open:focus {
+  outline: none;
+}
+
+.hamburger,
+.hamburger::before,
+.hamburger::after {
+  content: '';
+  display: block;
+  background: #ebebd3;
+  height: 3px;
+  width: 1.75em;
+  border-radius: 3px;
+  transition: transform ease-in-out 500ms, opacity linear 300ms;
+}
+
+.hamburger::before {
+  transform: translateY(-6px);
+}
+
+.hamburger::after {
+  transform: translateY(3px);
+}
+
+.open .hamburger {
+  transform: rotate(45deg);
+}
+
+.open .hamburger::before {
+  opacity: 0;
+}
+
+.open .hamburger::after {
+  transform: translateY(-3px) rotate(-90deg);
+}
+
+:root {
+  --bezier: cubic-bezier(0.34, 0.05, 0.52, 1);
+}
+
+/* demo 01 */
+.menu-toggle {
+  transition: transform var(--bezier) 250ms;
+}
+
+.menu-toggle.open:hover {
+  transform: scale(1.2);
+}
+
+.site-nav a {
+  transition: background var(--bezier) 150ms;
+}
+
+.open.menu-toggle:hover .hamburger {
+  transform: rotate(1.125turn);
+}
+
+.open .hamburger {
+  transform: rotate(45deg);
+}
+
+/* for demo 2 */
+
+.site-nav li {
+  opacity: 0;
+  transition: opacity 350ms linear;
+}
+
+.site-nav--open li {
+  animation: fadeIn var(--bezier) 750ms forwards;
+}
+
+.site-nav--open li:nth-child(1) {
+  animation-delay: 100ms;
+}
+.site-nav--open li:nth-child(2) {
+  animation-delay: 200ms;
+}
+.site-nav--open li:nth-child(3) {
+  animation-delay: 300ms;
+}
+.site-nav--open li:nth-child(4) {
+  animation-delay: 400ms;
+}
+.site-nav--open li:nth-child(5) {
+  animation-delay: 500ms;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    transform: translateX(-200px);
+  }
+  75% {
+    opacity: 0.2;
+    transform: translateX(0);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes fadeOut {
+  0% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+  70% {
+    opactiy: 0;
+  }
+  100% {
+    opacity: 0;
+    transform: translateX(500px);
+  }
+}
+
+.site-nav--closed li {
+  opacity: 1;
+  animation: fadeOut var(--bezier) 500ms forwards;
+}
+
+.site-nav--closed li:nth-child(1) {
+  animation-delay: 500ms;
+}
+.site-nav--closed li:nth-child(2) {
+  animation-delay: 400ms;
+}
+.site-nav--closed li:nth-child(3) {
+  animation-delay: 300ms;
+}
+.site-nav--closed li:nth-child(4) {
+  animation-delay: 200ms;
+}
+.site-nav--closed li:nth-child(5) {
+  animation-delay: 100ms;
+}
+
+.contactImage {
+  height: 100vh;
+  min-height: 350px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.contact-form {
+  background: #fff;
+  margin-top: 10%;
+  margin-bottom: 5%;
+  width: 70%;
+}
+.contact-form .form-control {
+  border-radius: 1rem;
+}
+.contact-image {
+  text-align: center;
+}
+.contact-image img {
+  border-radius: 6rem;
+  width: 11%;
+  margin-top: -3%;
+  transform: rotate(29deg);
+}
+.contact-form form {
+  padding: 14%;
+}
+.contact-form form .row {
+  margin-bottom: -7%;
+}
+.contact-form h6 {
+  margin-bottom: 8%;
+  margin-top: -10%;
+  text-align: center;
+  color: #0062cc;
+}
+.contact-form .btnContact {
+  width: 50%;
+  border: none;
+  border-radius: 1rem;
+  padding: 1.5%;
+  background: #dc3545;
+  font-weight: 600;
+  color: #fff;
+  cursor: pointer;
+}
+.btnContactSubmit {
+  width: 50%;
+  border-radius: 1rem;
+  padding: 1.5%;
+  color: #fff;
+  background-color: #0062cc;
+  border: none;
+  cursor: pointer;
+}
+
+.map-container {
+  overflow: hidden;
+  padding-bottom: 56.25%;
+  position: relative;
+  height: 0;
+}
+.map-container iframe {
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
+
+.footerCopyright {
+  height: 20vh;
+}
+
+.footerPadding {
+  padding-top: 2%;
+}
+
+.titleAll {
+  text-align: center;
+}
+.titleAll p {
+  font-size: 40px !important;
+}
+.title {
+  font-size: 60px !important;
+  font-family: 'Indie Flower', cursive;
+}
+
+.heading1 {
+  text-align: center;
+  font-size: 30px !important;
+  font-family: 'Indie Flower', cursive;
+  margin: 0;
+}
+.textEnd {
+  background-color: red;
+  color: white;
+  text-align: center;
+  padding-top: 1%;
+}
+.textEnd a:hover {
+  color: white !important;
+}
+.textEnd a {
+  color: white !important;
+}
+.marketH {
+  font-size: 30px !important;
+  font-family: 'Indie Flower', cursive;
+}
+
+.weather {
+  font-family: 'Indie Flower', cursive;
+  font-size: 2rem;
+  text-align: center;
+  background: linear-gradient(300deg, #ced1d61c, #bfc0c042);
+  border-radius: 15%;
+  color: white;
+}
+
+.weather h2 img {
+  align-items: center;
+  margin-bottom: 0;
+}
+.map {
+  padding-left: 12%;
+}
+
+.sidebar {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: rgba(17, 17, 17, 0.808);
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidebar a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #fffefe;
+  display: block;
+  transition: 0.3s;
+  font-family: 'Indie Flower', cursive;
+}
+
+.sidebar a:hover {
+  color: #f1f1f1;
+  border: 2px solid #f1f1f1;
+}
+
+.sidebar .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+.openbtn {
+  font-size: 20px;
+  cursor: pointer;
+  background-color: #111;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+}
+
+.openbtn:hover {
+  background-color: #444;
+}
+.go-top {
+  position: fixed;
+  bottom: 100px;
+  right: 2em;
+  text-decoration: none;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.623);
+
+  padding: 1em;
+  display: none;
+}
+a:hover {
+  color: red !important;
+}
+
+.fa-angle-double-up {
+  font-size: 22px;
+}
+.go-top:hover {
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+@media (max-width: 580px) {
+  .img-fluid {
+    margin-bottom: 10px;
+  }
+}
+
+@media (max-width: 992px) {
+  #submitBtn {
+    width: 100%;
+  }
+  .bottom-end {
+    position: absolute;
+    top: -10px;
+    left: -4px;
+    z-index: 999;
+  }
+
+  .text {
+    font-size: 2rem !important;
+  }
+
+  .h1-responsive12 {
+    font-size: 40px !important;
+  }
+
+  .marketH {
+    font-size: 20px !important;
+  }
+  .flag1 {
+    position: relative;
+    left: 90px;
+  }
+
+  .weather {
+    display: none;
+  }
+
+  .flag {
+    position: relative;
+    left: 90px;
+  }
+
+  .textEnd {
+    width: 100% !important;
+  }
+  .marketH {
+    font-size: auto !important;
+    font-family: 'Indie Flower', cursive;
+  }
+  .menu-toggle {
+    display: none !important;
+  }
+
+  .endDisplay {
+    display: none !important;
+  }
+  .colorFab1 {
+    color: blue !important;
+  }
+  .colorFab {
+    color: blue !important;
+  }
+}
+
+@media (max-width: 1200px) {
+  .third-button {
+    position: absolute !important;
+  }
+
+  .footerBtn1,
+  .footerBtn12 {
+    display: none !important;
+  }
+  .footerContactBtn {
+    left: 0% !important;
+  }
+  .footerContactBtn1 {
+    left: 0% !important;
+  }
+  .site-nav {
+    width: 100% !important;
+    height: 100% !important;
+  }
+  .nameAccommodationSvD {
+    font-size: 40px !important;
+  }
+  .site-nav ul {
+    display: grid !important;
+  }
+  .site-nav a {
+    width: 100% !important;
+  }
+  .carousel-item {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+}
+@media (max-width: 340px) {
+  .flag1,
+  .flag {
+    display: none;
+  }
+  .smallDisplay {
+    display: none !important;
+  }
+}
+.intro {
+  background: #fff;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 99999;
+}
+.slider {
+  background: rgb(97, 105, 109);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  transform: translateY(100%);
+}
+
+.intro-text {
+  color: rgb(8, 8, 8);
+
+  text-align: center;
+}
+
+.hide {
+  background: #fff;
+  overflow: hidden;
+}
+
+.hide span {
+  transform: translateY(100%);
+  display: inline-block;
+}
+
+.imageHide {
+  width: 250px;
+  height: 220px;
+  padding-bottom: 10px;
+}
+.text {
+  font-family: 'Indie Flower', cursive;
+  font-size: 3rem;
+}
